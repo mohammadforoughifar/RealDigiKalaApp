@@ -11,7 +11,7 @@ Future<List<MainPageMenu>>GetAllPageMenu()async{
   for(var item in response.data)
     {
       model.add(MainPageMenu(item["minPageMemuId"], item["title"], item["img"]));
-      print(item["title"]);
+
     }
 
   return model;

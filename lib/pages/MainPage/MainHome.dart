@@ -1,5 +1,9 @@
+import 'package:digiapp/pages/MainPage/MainHome_Views/BarAsaseBazdid_Shoma1.dart';
+import 'package:digiapp/pages/MainPage/MainHome_Views/MainBanner1.dart';
+import 'package:digiapp/pages/MainPage/MainHome_Views/MainSegefAngizSoperMarket.dart';
 import 'package:digiapp/pages/MainPage/MainHome_Views/MainSlider.dart';
 import 'package:digiapp/pages/MainPage/MainHome_Views/MenuUnderSlider.dart';
+import 'package:digiapp/pages/MainPage/MainHome_Views/PishnehadeVizhe.dart';
 import 'package:flutter/material.dart';
 
 
@@ -17,7 +21,11 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
              MainSLider(),
-             MenuUnderSLider()
+             MenuUnderSLider(),
+            PishnehadeVizhe(),
+            MainBanner1(),
+            MainSegefAngizSoperMarket(),
+            BarAsaseBazdid_Shoma1()
           ],
         ),
       );
